@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    padding: auto;
+    margin: auto;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url('http://localhost/bootstrap/anime-style-clouds2.jpg');
+    background-size: 103%;
+    background-position: center;
+
+}
+
+form{
+    width: 30%;
+    background-color: rgb(255, 247, 247);
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+
+@media only screen and (max-width:900px){
+    form{
+        width: 100% !important;
+    }
+}
+
+#login-logo {
+    max-width: 150px; /* Regola in base alle tue esigenze */
+    height: auto;
+}
+

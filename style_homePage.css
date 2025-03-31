@@ -1,0 +1,136 @@
+/* Stili per la Sidebar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+    .containerr{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    body{
+        background-image: url('http://localhost/bootstrap/anime-style-clouds2.jpg');
+        background-size: 130%;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+    #sidebar {
+        width: 50px;
+        height: 100%;
+        background: #000;
+        color: #fff;
+        position: fixed;
+        overflow-x: hidden;
+        padding-top: 10px;
+        left: 0;
+        top: 0;
+        transition:  0.6s ease;
+        box-shadow: 0 0 10px rgba(0,0,0,5);
+        z-index: 1;
+    }
+    #sidebar:hover {
+        width: 130px;
+        transition: 0.3s ease;
+    }
+    
+    /* Stili per il Contenuto Principale */
+    
+    #sidebar ul li{
+        list-style: none;
+        margin: 5px 0;
+    }
+    #sidebar ul li:hover{
+        background: #000;
+        transition: 0.3s ease;
+    }
+    
+    #sidebar ul li a{
+        position: relative;
+        display: flex;
+        white-space: nowrap;
+        text-decoration: none;
+        color: #fff;
+    
+    }
+    #sidebar ul li .logo{
+       margin-bottom: 80px;
+    }
+    
+    #side ul li .logo .logo .text{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    
+    #sidebar ul li a .icon{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        align-items: normal;
+        min-width: 50px;
+        font-size: 25px;
+    }
+    #sidebar ul li a .text{
+        position:fixed;
+        display: flex;
+        align-items: center;
+        height: 60px;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 0.9px;
+       
+    }
+    #sidebar .sidebar-header{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        align-items: normal;
+        min-width: 50px;
+        
+    }
+    #sidebar ul li .dropdown-toggle{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #sidebar ul li .without{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    form .navbar-navbar-light-bg-light{
+        width: 150%;
+        padding: 1px;
+        margin-top: 10em;
+        text-align: center;
+        align-self: center;
+        align-items: center;
+        /*aggiungere il border alla navbar border*/
+    }
+    
+    h1 {
+        color: #000;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .container-my-5{
+        margin-top: 50em;
+    }
+    .text-black{
+        color: #000;
+    }
+    .border-bottom{
+        border-bottom:1px solid #000000 !important;
+    }
